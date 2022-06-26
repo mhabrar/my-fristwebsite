@@ -1,5 +1,7 @@
 body{
     font-family: sans-serif;
+    margin: 0;
+    padding: 0%;
 
 }
 h1{
@@ -28,4 +30,54 @@ h1{
 }
 img{
     width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    margin-left: ;
+}
+nav{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50%;
+}
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-width none;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.orange{
+    color: orange;
+}
+.single-experiences{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightgrey ,tomato);
+    border-image-slice: 1;
+}
+#one-stack{
+    border-left: 7px solid;
+    border-image: linear-gradiebnt(black ,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
